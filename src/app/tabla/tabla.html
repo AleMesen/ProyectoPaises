@@ -1,0 +1,36 @@
+<div class="tabla-container">
+  <h2>Listado de Países</h2>
+  <p class="subtitulo">Filtra por nombre, capital, moneda o código</p>
+
+  <input
+    type="text"
+    placeholder="Buscar..."
+    [(ngModel)]="searchTerm"
+    (input)="filtrar()"
+    class="input-busqueda"
+  />
+
+  <table class="tabla">
+    <thead>
+      <tr>
+        <th>Código</th>
+        <th>Nombre</th>
+        <th>Capital</th>
+        <th>Moneda</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pais of paisesFiltrados">
+        <td>{{ pais.id }}</td>
+        <td>{{ pais.nombre }}</td>
+        <td>{{ pais.capital }}</td>
+        <td>{{ pais.moneda }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div *ngIf="paisesFiltrados.length === 0" class="sin-resultados">
+    No se encontraron resultados.
+  </div>
+</div>
+

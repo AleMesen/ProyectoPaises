@@ -1,0 +1,17 @@
+<section class="home-container">
+  <h1 class="titulo">Maravillas del Mundo</h1>
+  
+  <div class="carrusel">
+    <button class="btn-nav" (click)="retroceder()">⟨</button>
+    
+    <img
+      [src]="imagenes[indiceActual]"
+      alt="Maravilla"
+      class="imagen-carrusel"
+    />
+    
+    <button class="btn-nav" (click)="avanzar()">⟩</button>
+  </div>
+
+  <a class="btn-info" routerLink="/tabla">Más información</a>
+</section>

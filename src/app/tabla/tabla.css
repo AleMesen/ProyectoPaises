@@ -1,0 +1,95 @@
+/* Contenedor general */
+.tabla-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Título */
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+/* Subtítulo */
+.subtitulo {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Input de búsqueda */
+.input-busqueda {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-sizing: border-box;
+}
+
+/* Tabla */
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Encabezado */
+.tabla thead {
+  background-color: #3f51b5;
+  color: white;
+}
+
+.tabla th,
+.tabla td {
+  padding: 12px 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Hover fila */
+.tabla tbody tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.2s ease;
+}
+
+/* Mensaje sin resultados */
+.sin-resultados {
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  color: #999;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .tabla-container {
+    padding: 10px;
+  }
+
+  .tabla th,
+  .tabla td {
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .input-busqueda {
+    font-size: 0.9rem;
+  }
+}

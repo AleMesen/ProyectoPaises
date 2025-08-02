@@ -1,0 +1,65 @@
+{
+  "paises": [
+    {
+      "id": "+86",
+      "nombre": "China",
+      "capital": "Beijing",
+      "moneda": "Yuan"
+    },
+    {
+      "id": "+962",
+      "nombre": "Jordania",
+      "capital": "Amman",
+      "moneda": "Dinar"
+    },
+    {
+      "id": "+55",
+      "nombre": "Brasil",
+      "capital": "Rio de Janeiro",
+      "moneda": "Real brasileño"
+    },
+    {
+      "id": "+51",
+      "nombre": "Perú",
+      "capital": "Lima",
+      "moneda": "Sol peruano"
+    },
+    {
+      "id": "+52",
+      "nombre": "México",
+      "capital": "Ciudad de México",
+      "moneda": "Peso mexicano"
+    },
+    {
+      "id": "+39",
+      "nombre": "Italia",
+      "capital": "Roma",
+      "moneda": "Euro"
+    },
+
+    {
+      "id": "+91",
+      "nombre": "India",
+      "capital": "New Delhi",
+      "moneda": "rupia"
+    },
+    {
+      "id": "+506",
+      "nombre": "Costa Rica",
+      "capital": "San José",
+      "moneda": "Colón"
+    },
+    {
+      "id": "+81",
+      "nombre": "Japón",
+      "capital": "Tokyo",
+      "moneda": "Yen"
+    },
+    {
+      "id": "+57",
+      "nombre": "Colombia",
+      "capital": "Bogotá",
+      "moneda": "Peso colombiano"
+    }
+  ]
+}
